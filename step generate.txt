@@ -1,0 +1,14 @@
+Step Membuat Private Key & Public Key Menggunakan OpenSSL
+Step 1 :  mkdir rsa_key
+Step 2 : cd rsa_key/
+Step 3 : openssl genrsa -des3 -out private.pem 2048
+Step 4 : Input pass pharse (isi bebas)
+
+generate public key
+Step 1 : openssl rsa -in private.pem -outform PEM -pubout -out public.pem
+Step 2 : Input pass pharse lagi (isi pass bebas)
+Step 3 : code . (redirect ke visual studio code)
+
+https://slproweb.com/products/Win32OpenSSL.html
+
+
